@@ -1,0 +1,35 @@
+we making this in c plus plus. 
+
+we'll have a problem to print at random coordinates...
+
+
+Storing coordinates inside structures...
+like : 
+struct co-ordinate{
+    int x  ;
+    int y ; 
+}
+
+and we will make a class snake.
+class snake int{
+    int length ; 
+    char direction ; // 4 direction. left, right, down, up ; 
+
+}
+
+anothter class board{
+    class snake{
+
+    }
+    class scoreP{
+
+    }
+    class lean{
+
+    }
+    class point{
+
+    }
+}
+
+there will only be 2 direction available to move... as... 

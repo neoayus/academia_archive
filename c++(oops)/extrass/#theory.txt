@@ -1,0 +1,23 @@
+Basic Concepts of OOP
+    Objects
+    Classes
+    Data abstraction and Encapsulation
+    Inheritance 
+    Polymorphism 
+    Dynamic Binding 
+    Message Passing
+
+Objects : Objects ar basic runtime entity. Each object contains data and code to manipulate the data. Objects belong to Classes.
+
+Classes : The entire set of data and code of ana object can be made a use defined data type using class. Objects are variable of the type class.
+          Class is a collection of Objects of Similar type. 
+
+        Syntax : fruit mango // fruit is a class while mango is and object. 
+
+Data abstraction and Encapsulation : The Wrapping up of data and function into a single unit called Class is known as Encapsulation. The data is not accessible to the outside world, and only function which are wrapped in the class can access it. This insulation of data from direct access by the program is called Data Hiding nd Information Hiding. 
+
+Abstraction : refers to the act of representing essential features without including the background details or explanation. 
+                Function inside class are called methods and member function while data is called data members. 
+
+Inheritance : Inheritance is the property by which objects of one class acquire the propertieso of objects of another class. It supports Concept of Hirarchial Classification. 
+

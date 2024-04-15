@@ -1,0 +1,33 @@
+what is DS ?
+- A particular way of storing and organizing data in our system to use the data effectively and efficiently.
+Main idea behind the DS in to minimize TIME AND SPACE COMPLEXITY.
+                                                        // 
+- A dataStructure is a way of organizing and storing data in our system so that it can be accessed and used efficiently, it refers to the logical and mathematical representation of data, as well as implementation in Computer Program. 
+
+
+Algorithm : A process or set of well defined instructions that are typically used to solve a particular group of problems or perform a specific task/ type of calculation. 
+
+Classification of Data Structures : 
+1) Linear Data structure : a Data Structure in which elements are arranged sequentially or linearly , where each element is attached to its previous and next element. for ex : array, list, an queue, stack, etc. 
+
+2) Non Linear DS : DS where elements are not placed sequentially and linearly, for ex : graph and tree. 
+
+
+!!! 
+TYPES OF DATA STRUCTUR 
+!!!
+
+1) Arrays : an array is a linear data structure, it is a collection of items/elements stored at contagious memory location. The idea is to store multiple items of same type together in one place. It allows the processing of large amount of data in relatively short period. 
+
+(a in array is base index.)
+
+#Basic Operations on Data ; 
+1) Traversing : The systematic examination or iteration through each element in a dataset. 
+2) Inserting : Adding a new element or data into a data structure. 
+3) Searching : Locating a specific element or value within a dataset.
+                Searching algorithm include linear and binarty search.
+4) Deleting : Removing an element or data from a data structure. 
+5) Sorting : Arranging data elements in a specific order, such as ascending or decending to make searching and retrieval more efficient. 
+6) Merging : Combining two or more dataset or data structure into a single unified structure. 
+
+

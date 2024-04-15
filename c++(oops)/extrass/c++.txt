@@ -1,0 +1,19 @@
+BASIC INTRODUCTION  !!
+
+C++ is a middle level language. 
+was introduces in early 1980s.
+in Bell labs while enhanching C for OOPS.
+
+C++ Supports Inheritance 
+             Polymorphism
+             Encapsulation, etc. 
+
+FILE FORMAT USED FOR C++ IS : .cpp 
+
+Boiler Plate Code for C++ : 
+
+#include<iostream>
+int main(){
+    std :: couot << "Hello World !" << std::endl ; 
+    return 0 ; 
+}
