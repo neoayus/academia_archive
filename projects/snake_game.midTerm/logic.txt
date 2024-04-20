@@ -1,7 +1,5 @@
-we making this in c plus plus. 
 
-we'll have a problem to print at random coordinates...
-
+~random coordinates 
 
 Storing coordinates inside structures...
 like : 
@@ -10,7 +8,7 @@ struct co-ordinate{
     int y ; 
 }
 
-and we will make a class snake.
+
 class snake int{
     int length ; 
     char direction ; // 4 direction. left, right, down, up ; 
