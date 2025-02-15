@@ -1,0 +1,34 @@
+1. Display Employee Number, Name, Salary, Salary increased by 15% as new_salary ; 
+ select emp_no, emp_name, salary, salary + (salary*15/100) as new_salary from emp ;
+
+
+2. Display Employee Name and Salary of employee whose salary >= 3000 ; select emp_name salary from emp where salary >= 3000 ;
+
+3. List the details of Emloyee who earn more Commission than their Salary ; 
+ select * from emp where commission > salary ;
+
+4. Display the details of all Managers whose Salary is greater than 3000 ; 
+ select * from emp where job = 'manager' and salary < 3000 ;
+
+
+6. Display the employee number, name, job of the employee which do not belong to any department. 
+ select emp_no, emp_name, job from emp where department_no is null ;
+
+
+7. Display Unique department number in Employee table. 
+ select distinct(department_no) from emp ;
+
+
+9. Display the details of Emloyee who joined on 17 November 81. 
+  select * from emp where hire_date = '17-Nov-81' ;
+
+
+10. Display details of employee who are getting no commission. 
+ select * from emp where commission is null  ;
+
+11. Display the details of employee who are salesman. 
+ select * from emp where job = 'salesman' ;
+
+
+12. Display the details of employee who haven't had assigned any department number. 
+ select * from emp where department_no is null  ;

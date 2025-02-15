@@ -1,0 +1,87 @@
+*{
+   border: 0 ; 
+   padding: 0 ; 
+   margin : 0 ;
+   box-sizing: border-box ;
+}
+body{
+   background-image: url("./gehuHome.jpg");
+   background-size: cover ; 
+   background-repeat: no-repeat;
+}
+form{
+   position: absolute;
+   top : 70px ; 
+   right: 60px ; 
+   height: 80vh ;
+   width: 21vw ;
+   border: 2px solid grey ;
+   border-radius: 7px; 
+}
+.form__head{
+   height: 20% ; 
+   width: auto ; 
+   background-color: #E6F4F7 ;
+   display: flex; 
+   align-items: center ; 
+   justify-content: center;
+   border-top-left-radius: 7px ;
+   border-top-right-radius: 7px ;
+}
+.form__head img{
+   height: 55% ; 
+   width: auto ; 
+   align-items: center;
+   background-position: center;
+   background-size: contain;
+} 
+.form__body{
+   height: 80% ; 
+   display: flex ; 
+   flex-direction: column ; 
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: space-evenly;
+   background-color: rgba(133, 133, 133, 0.527) ;
+   color: black ; 
+}
+input, button{
+   height: 3rem ;
+   width: 75% ; 
+   /* opacity: 0.7 ;  */
+   padding: 15px ; 
+   /* text-align: center; */
+   border: .6px solid rgb(128, 128, 128) ;
+   border-radius: 2.5px;
+}
+button{
+   background-color: #03A9F4 ;
+   border-radius: 1.5px;
+}
+.links{
+   display: flex ; 
+   flex-direction: column ;
+   gap: 7px ;
+   text-align: right;
+}
+.links a{
+   color: white; 
+   text-decoration: none;
+   &:hover{
+      text-decoration: underline;
+   }
+}
+hr{
+   height: 1px ;
+   background-color: white ; 
+}
+.cyborg{
+   color: white ;    
+}
+.cyborg a{
+   text-decoration: none ;
+   color: white ;
+   &:hover{
+      text-decoration: underline;
+   }
+}

@@ -1,0 +1,23 @@
+var marks = {
+   hindi : 80, 
+   maths : 70, 
+   english : 20, 
+   science : 30,  
+   history : 40,
+}
+
+var percentage = ( marks.hindi + marks.maths + marks.english + marks.science + marks.history) / 5 ; 
+var grade ; 
+
+if(percentage < 90 && percentage > 80){
+   grade = 'A' ; 
+}else if(percentage < 80 && percentage > 70){
+   grade = 'B' ; 
+}else if(percentage < 70 && percentage > 60){
+   grade = 'C' ; 
+}else if(percentage < 60){
+   grade = 'D' ; 
+} 
+
+console.log(`The Percentage is : ${percentage} and Grade is : ${grade}`) ; 
+document.write(`<h2> The Percentage is : ${percentage} and Grade is : ${grade} </h2>`) ; 

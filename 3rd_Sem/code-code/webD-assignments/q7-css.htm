@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CSS Demonstration</title>
+
+   <!-- External CSS (simulating the external CSS with an internal style block) -->
+   <link rel="stylesheet" href="styles.css">
+
+   <!-- Internal CSS -->
+   <style>
+      .internal-style {
+         background-color: lightblue;
+         padding: 20px;
+         text-align: center;
+         font-size: 18px;
+         color: darkblue;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <h1>Internal, External & Inline CSS Demo</h1>
+
+   <!-- Inline CSS -->
+   <div style="background-color: lightgreen; padding: 20px; text-align: center; font-size: 18px;">
+      This div is styled using Inline CSS
+   </div>
+
+   <!-- Internal CSS (applied to this div) -->
+   <div class="internal-style">
+      This div is styled using Internal CSS
+   </div>
+
+   <!-- External CSS (you'll link it to an actual external stylesheet) -->
+   <div class="external-style">
+      This div is styled using External CSS (simulated in the example)
+   </div>
+
+</body>
+
+</html>

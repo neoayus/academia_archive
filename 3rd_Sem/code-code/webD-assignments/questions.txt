@@ -1,0 +1,30 @@
+1. *Write a code in HTML to create a CV.
+
+2. *Write a code in HTML to create a marksheet.
+
+3. *Write a code in HTML to create a Student Registration form.
+
+4. *Write an HTML code to show different type of list and use various list attributes of CSS.
+
+5. *Write an HTML code to demonstrate audio and video tag of HTML files. 
+
+6. : 
+Write an HTML code to demonstrate the use of following tags:-
+1.Div
+2.Span
+3.Pre
+4.Marque 
+5.Header
+6.Footer
+7.Nav
+8.Article
+9.Section
+
+
+7. Write HTML code and demonstrate the implementation of internal, external & inline css.
+
+8. Design sample home page for Graphic Era University using frame and demonstrate internal hyperlinking and  external hyperlinking.
+
+9. Write HTML code to design a web page similar to Facebook front page.
+
+10. Write a HTML code to demonstrate the implementation of internal JavaScript and external JavaScript

@@ -1,0 +1,44 @@
+Create Table DPT: 
+
+create table dpt(
+dpt_no number(5) primary key,
+dpt_name varchar2(10) unique,
+dpt_location varchar2(10) not null );
+
+
+CREATE TABLE EMP : 
+
+create table emp(
+emp_no number(4) primary key,
+emp_name varchar2(10) unique,
+job varchar2(20) not null,
+mgr number(8),
+hire_date date,
+salary number check(salary > 500),
+commission number(10),
+emp_dpt number, foreign key (emp_dpt) references dpt(dpt_no)
+) ;
+
+Insert into DPT : DPT DATA : 
+
+insert into dpt values(10, 'accounting', 'new york') ; 
+insert into dpt values(20, 'research', 'dallas') ; 
+insert into dpt values(30, 'sales', 'chicago') ; 
+insert into dpt values(40, 'operations', 'boston') ; 
+
+Insert into EMP: EMP DATA: 
+
+insert into emp values(7839, 'king', 'president', null, '17-nov-81', 5000, null, 10) ; 
+insert into emp values(7698, 'blake', 'manager ', 7839, '01-may-81', 2850, null, 30) ;
+insert into emp values(7782, 'clark', 'manager ', 7839, '09-jun-81', 2450, null, 10) ;
+insert into emp values(7566, 'jones', 'manager ', 7839, '02-apr-81', 2975, null, 20) ;
+insert into emp values(7654, 'martin', 'salesman', 7698, '28-sep-81', 1250, 1400, 30) ;
+insert into emp values(7499, 'allen', 'salesman', 7698, '20-feb-81', 1600, 300, 30) ;
+insert into emp values(7844, 'turner', 'salesman', 7698, '08-sep-81', 1500, 0, 30) ;
+insert into emp values(7900, 'james', 'clerk', 7698, '03-dec-81', 950 , null, 30) ;
+insert into emp values(7521, 'ward', 'salesman', 7698, '22-feb-81', 1250, 500, 30) ;
+insert into emp values(7902, 'ford', 'analyst', 7566, '03-dec-81', 3000, null, null) ;
+insert into emp values(7369, 'smith', 'clerk', 7902, '17-dec-80', 800 , null, null) ;
+insert into emp values(7788, 'scott', 'analyst', 7566, '09-dec-82', 3000, null, 20) ;
+insert into emp values(7876, 'adams', 'clerk', 7788, '12-jan-83', 1100, null, 20) ;
+insert into emp values(7934, 'miller', 'clerk', 7782, '23-jan-82', 1300, null, null) ;
